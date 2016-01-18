@@ -1,0 +1,6 @@
+DATE = "18:21:45 December 04, 2015"
+QUARTUS_VERSION = "9.1"
+
+# Revisions
+
+PROJECT_REVISION = "multicore"

@@ -1,0 +1,201 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2015 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus II License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 0 0 608 552)
+	(text "Embedded" (rect 274 -1 317 11)(font "Arial" (font_size 10)))
+	(text "inst" (rect 8 536 20 548)(font "Arial" ))
+	(port
+		(pt 0 72)
+		(input)
+		(text "clk_clk" (rect 0 0 27 12)(font "Arial" (font_size 8)))
+		(text "clk_clk" (rect 4 61 46 72)(font "Arial" (font_size 8)))
+		(line (pt 0 72)(pt 272 72)(line_width 1))
+	)
+	(port
+		(pt 0 192)
+		(input)
+		(text "pioslave1_external_connection_export[15..0]" (rect 0 0 173 12)(font "Arial" (font_size 8)))
+		(text "pioslave1_external_connection_export[15..0]" (rect 4 181 262 192)(font "Arial" (font_size 8)))
+		(line (pt 0 192)(pt 272 192)(line_width 3))
+	)
+	(port
+		(pt 0 232)
+		(input)
+		(text "pioslave2_external_connection_export[15..0]" (rect 0 0 174 12)(font "Arial" (font_size 8)))
+		(text "pioslave2_external_connection_export[15..0]" (rect 4 221 262 232)(font "Arial" (font_size 8)))
+		(line (pt 0 232)(pt 272 232)(line_width 3))
+	)
+	(port
+		(pt 0 312)
+		(input)
+		(text "reset_reset_n" (rect 0 0 56 12)(font "Arial" (font_size 8)))
+		(text "reset_reset_n" (rect 4 301 82 312)(font "Arial" (font_size 8)))
+		(line (pt 0 312)(pt 272 312)(line_width 1))
+	)
+	(port
+		(pt 0 352)
+		(input)
+		(text "uart_0_external_connection_rxd" (rect 0 0 128 12)(font "Arial" (font_size 8)))
+		(text "uart_0_external_connection_rxd" (rect 4 341 184 352)(font "Arial" (font_size 8)))
+		(line (pt 0 352)(pt 272 352)(line_width 1))
+	)
+	(port
+		(pt 0 112)
+		(output)
+		(text "ledgslave1_external_connection_export[7..0]" (rect 0 0 174 12)(font "Arial" (font_size 8)))
+		(text "ledgslave1_external_connection_export[7..0]" (rect 4 101 262 112)(font "Arial" (font_size 8)))
+		(line (pt 0 112)(pt 272 112)(line_width 3))
+	)
+	(port
+		(pt 0 152)
+		(output)
+		(text "ledrslave2_external_connection_export[7..0]" (rect 0 0 174 12)(font "Arial" (font_size 8)))
+		(text "ledrslave2_external_connection_export[7..0]" (rect 4 141 262 152)(font "Arial" (font_size 8)))
+		(line (pt 0 152)(pt 272 152)(line_width 3))
+	)
+	(port
+		(pt 0 272)
+		(output)
+		(text "reg16_0_conduit_end_readdata[15..0]" (rect 0 0 148 12)(font "Arial" (font_size 8)))
+		(text "reg16_0_conduit_end_readdata[15..0]" (rect 4 261 214 272)(font "Arial" (font_size 8)))
+		(line (pt 0 272)(pt 272 272)(line_width 3))
+	)
+	(port
+		(pt 0 368)
+		(output)
+		(text "uart_0_external_connection_txd" (rect 0 0 127 12)(font "Arial" (font_size 8)))
+		(text "uart_0_external_connection_txd" (rect 4 357 184 368)(font "Arial" (font_size 8)))
+		(line (pt 0 368)(pt 272 368)(line_width 1))
+	)
+	(port
+		(pt 0 408)
+		(output)
+		(text "video_vga_controller_0_external_interface_CLK" (rect 0 0 197 12)(font "Arial" (font_size 8)))
+		(text "video_vga_controller_0_external_interface_CLK" (rect 4 397 274 408)(font "Arial" (font_size 8)))
+		(line (pt 0 408)(pt 272 408)(line_width 1))
+	)
+	(port
+		(pt 0 424)
+		(output)
+		(text "video_vga_controller_0_external_interface_HS" (rect 0 0 189 12)(font "Arial" (font_size 8)))
+		(text "video_vga_controller_0_external_interface_HS" (rect 4 413 268 424)(font "Arial" (font_size 8)))
+		(line (pt 0 424)(pt 272 424)(line_width 1))
+	)
+	(port
+		(pt 0 440)
+		(output)
+		(text "video_vga_controller_0_external_interface_VS" (rect 0 0 191 12)(font "Arial" (font_size 8)))
+		(text "video_vga_controller_0_external_interface_VS" (rect 4 429 268 440)(font "Arial" (font_size 8)))
+		(line (pt 0 440)(pt 272 440)(line_width 1))
+	)
+	(port
+		(pt 0 456)
+		(output)
+		(text "video_vga_controller_0_external_interface_BLANK" (rect 0 0 211 12)(font "Arial" (font_size 8)))
+		(text "video_vga_controller_0_external_interface_BLANK" (rect 4 445 286 456)(font "Arial" (font_size 8)))
+		(line (pt 0 456)(pt 272 456)(line_width 1))
+	)
+	(port
+		(pt 0 472)
+		(output)
+		(text "video_vga_controller_0_external_interface_SYNC" (rect 0 0 204 12)(font "Arial" (font_size 8)))
+		(text "video_vga_controller_0_external_interface_SYNC" (rect 4 461 280 472)(font "Arial" (font_size 8)))
+		(line (pt 0 472)(pt 272 472)(line_width 1))
+	)
+	(port
+		(pt 0 488)
+		(output)
+		(text "video_vga_controller_0_external_interface_R[7..0]" (rect 0 0 205 12)(font "Arial" (font_size 8)))
+		(text "video_vga_controller_0_external_interface_R[7..0]" (rect 4 477 298 488)(font "Arial" (font_size 8)))
+		(line (pt 0 488)(pt 272 488)(line_width 3))
+	)
+	(port
+		(pt 0 504)
+		(output)
+		(text "video_vga_controller_0_external_interface_G[7..0]" (rect 0 0 204 12)(font "Arial" (font_size 8)))
+		(text "video_vga_controller_0_external_interface_G[7..0]" (rect 4 493 298 504)(font "Arial" (font_size 8)))
+		(line (pt 0 504)(pt 272 504)(line_width 3))
+	)
+	(port
+		(pt 0 520)
+		(output)
+		(text "video_vga_controller_0_external_interface_B[7..0]" (rect 0 0 202 12)(font "Arial" (font_size 8)))
+		(text "video_vga_controller_0_external_interface_B[7..0]" (rect 4 509 298 520)(font "Arial" (font_size 8)))
+		(line (pt 0 520)(pt 272 520)(line_width 3))
+	)
+	(drawing
+		(text "clk" (rect 257 43 532 99)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "clk" (rect 277 67 572 144)(font "Arial" (color 0 0 0)))
+		(text "ledgslave1_external_connection" (rect 91 83 362 179)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 277 107 590 224)(font "Arial" (color 0 0 0)))
+		(text "ledrslave2_external_connection" (rect 91 123 362 259)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 277 147 590 304)(font "Arial" (color 0 0 0)))
+		(text "pioslave1_external_connection" (rect 98 163 370 339)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 277 187 590 384)(font "Arial" (color 0 0 0)))
+		(text "pioslave2_external_connection" (rect 96 203 366 419)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 277 227 590 464)(font "Arial" (color 0 0 0)))
+		(text "reg16_0_conduit_end" (rect 149 243 412 499)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "readdata" (rect 277 267 602 544)(font "Arial" (color 0 0 0)))
+		(text "reset" (rect 243 283 516 579)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "reset_n" (rect 277 307 596 624)(font "Arial" (color 0 0 0)))
+		(text "uart_0_external_connection" (rect 112 323 380 659)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "rxd" (rect 277 347 572 704)(font "Arial" (color 0 0 0)))
+		(text "txd" (rect 277 363 572 736)(font "Arial" (color 0 0 0)))
+		(text "video_vga_controller_0_external_interface" (rect 25 379 296 771)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "CLK" (rect 277 403 572 816)(font "Arial" (color 0 0 0)))
+		(text "HS" (rect 277 419 566 848)(font "Arial" (color 0 0 0)))
+		(text "VS" (rect 277 435 566 880)(font "Arial" (color 0 0 0)))
+		(text "BLANK" (rect 277 451 584 912)(font "Arial" (color 0 0 0)))
+		(text "SYNC" (rect 277 467 578 944)(font "Arial" (color 0 0 0)))
+		(text "R" (rect 277 483 560 976)(font "Arial" (color 0 0 0)))
+		(text "G" (rect 277 499 560 1008)(font "Arial" (color 0 0 0)))
+		(text "B" (rect 277 515 560 1040)(font "Arial" (color 0 0 0)))
+		(text " Embedded " (rect 560 536 1180 1082)(font "Arial" ))
+		(line (pt 272 32)(pt 336 32)(line_width 1))
+		(line (pt 336 32)(pt 336 536)(line_width 1))
+		(line (pt 272 536)(pt 336 536)(line_width 1))
+		(line (pt 272 32)(pt 272 536)(line_width 1))
+		(line (pt 273 52)(pt 273 76)(line_width 1))
+		(line (pt 274 52)(pt 274 76)(line_width 1))
+		(line (pt 273 92)(pt 273 116)(line_width 1))
+		(line (pt 274 92)(pt 274 116)(line_width 1))
+		(line (pt 273 132)(pt 273 156)(line_width 1))
+		(line (pt 274 132)(pt 274 156)(line_width 1))
+		(line (pt 273 172)(pt 273 196)(line_width 1))
+		(line (pt 274 172)(pt 274 196)(line_width 1))
+		(line (pt 273 212)(pt 273 236)(line_width 1))
+		(line (pt 274 212)(pt 274 236)(line_width 1))
+		(line (pt 273 252)(pt 273 276)(line_width 1))
+		(line (pt 274 252)(pt 274 276)(line_width 1))
+		(line (pt 273 292)(pt 273 316)(line_width 1))
+		(line (pt 274 292)(pt 274 316)(line_width 1))
+		(line (pt 273 332)(pt 273 372)(line_width 1))
+		(line (pt 274 332)(pt 274 372)(line_width 1))
+		(line (pt 273 388)(pt 273 524)(line_width 1))
+		(line (pt 274 388)(pt 274 524)(line_width 1))
+		(line (pt 0 0)(pt 608 0)(line_width 1))
+		(line (pt 608 0)(pt 608 552)(line_width 1))
+		(line (pt 0 552)(pt 608 552)(line_width 1))
+		(line (pt 0 0)(pt 0 552)(line_width 1))
+	)
+)

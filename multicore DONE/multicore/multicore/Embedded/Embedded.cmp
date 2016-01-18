@@ -1,0 +1,22 @@
+	component Embedded is
+		port (
+			clk_clk                                         : in  std_logic                     := 'X';             -- clk
+			ledgslave1_external_connection_export           : out std_logic_vector(7 downto 0);                     -- export
+			ledrslave2_external_connection_export           : out std_logic_vector(7 downto 0);                     -- export
+			pioslave1_external_connection_export            : in  std_logic_vector(15 downto 0) := (others => 'X'); -- export
+			pioslave2_external_connection_export            : in  std_logic_vector(15 downto 0) := (others => 'X'); -- export
+			reg16_0_conduit_end_readdata                    : out std_logic_vector(15 downto 0);                    -- readdata
+			reset_reset_n                                   : in  std_logic                     := 'X';             -- reset_n
+			uart_0_external_connection_rxd                  : in  std_logic                     := 'X';             -- rxd
+			uart_0_external_connection_txd                  : out std_logic;                                        -- txd
+			video_vga_controller_0_external_interface_CLK   : out std_logic;                                        -- CLK
+			video_vga_controller_0_external_interface_HS    : out std_logic;                                        -- HS
+			video_vga_controller_0_external_interface_VS    : out std_logic;                                        -- VS
+			video_vga_controller_0_external_interface_BLANK : out std_logic;                                        -- BLANK
+			video_vga_controller_0_external_interface_SYNC  : out std_logic;                                        -- SYNC
+			video_vga_controller_0_external_interface_R     : out std_logic_vector(7 downto 0);                     -- R
+			video_vga_controller_0_external_interface_G     : out std_logic_vector(7 downto 0);                     -- G
+			video_vga_controller_0_external_interface_B     : out std_logic_vector(7 downto 0)                      -- B
+		);
+	end component Embedded;
+
